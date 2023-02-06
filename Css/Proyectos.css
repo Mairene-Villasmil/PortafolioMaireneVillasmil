@@ -1,0 +1,50 @@
+.pagina{
+    background-color: rgba(255, 255, 255, 0.505);
+}
+
+main{
+    width: 100%;
+    height: 80vh;
+}
+
+.container_grid{
+    width: 100%;
+    height: 392px;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 170px);
+    place-content: space-evenly space-evenly;
+}
+
+.titulo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(75, 69, 69, 0.301);
+    border-radius: 10px;
+}
+
+.recetas {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(75, 69, 69, 0.301);
+    border-radius: 10px;
+}
+
+.nav_dos a{
+    text-decoration-line: none;
+    color: black;
+}
+
+h3:hover{
+    text-decoration-line: underline;
+}
