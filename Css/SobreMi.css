@@ -1,8 +1,8 @@
-.pagina{
+.pagina {
     background-color: rgba(255, 255, 255, 0.505);
 }
 
-main{
+main {
     width: 100%;
     height: 80vh;
     display: flex;
@@ -22,7 +22,7 @@ main{
     background-color: rgba(255, 255, 255, 0.505);
 }
 
-.contenedor{
+.contenedor {
     font-size: x-large;
     width: 500px;
     height: 100px;
@@ -41,8 +41,8 @@ main{
     background-color: rgba(129, 129, 129, 0.534);
 }
 
-.CV:hover{
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+.CV:hover {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .lenguajes {
@@ -54,8 +54,21 @@ main{
     background-color: rgba(129, 129, 129, 0.534);
 }
 
-.lenguajes:hover{
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+.lenguajes:hover {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.habilidades {
+    width: 200px;
+    height: 35px;
+    border: solid 3px black;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(129, 129, 129, 0.534);
+}
+
+.habilidades:hover {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .certificados {
@@ -67,11 +80,11 @@ main{
     background-color: rgba(129, 129, 129, 0.534);
 }
 
-.certificados:hover{
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+.certificados:hover {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-h1 a{
+h1 a {
     display: inline;
     text-decoration-line: none;
     color: black;
