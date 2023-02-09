@@ -4,13 +4,13 @@
 }
 
 body {
-    background-image: url(../Imagenes/fondo\ portafolio.png);
-    background-size: 100% 100vh;
-    background-attachment: fixed;
+    background-color: rgba(51, 147, 182, 0.66);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 12vh;
     background-color: rgb(0, 0, 0);
 }
