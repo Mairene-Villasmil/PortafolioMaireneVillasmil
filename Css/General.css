@@ -4,9 +4,10 @@
 }
 
 body {
-    background-color: rgba(22, 96, 122, 0.292);
+    background-image: url(../Imagenes/fondo-dos.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {

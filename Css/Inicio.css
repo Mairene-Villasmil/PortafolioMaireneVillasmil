@@ -1,4 +1,51 @@
-main{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../Imagenes/fondo-inicio.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
+
+header {
+    width: 100vw;
+    height: 12vh;
+    background-color: rgb(0, 0, 0);
+}
+
+header a {
+    text-decoration-line: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.subrayado:hover{
+    background-color: rgb(112, 112, 112);
+    background-size: 15%;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,3 +71,17 @@ img{
     align-items: center;
     margin-top: 20px;
 }
+
+footer{
+    width: 100vw;
+    height: 8vh;
+}
+
+h2 a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
