@@ -50,15 +50,15 @@ main{
     width: 100%;
     flex-wrap: wrap;
     border-radius: 5px;
-    margin: 40px;
-}
-
-.certificado_uno{
-    width: 30%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.certificado_uno{
+    width: 250px;
+    margin: 40px;
 }
 
 a{
@@ -73,11 +73,6 @@ p{
     color: black;
 }
 
-h2 {
-    font-family: cursive;
-    font-size: x-large;
-}
-
 img {
     width: 250px;
     border: 6px solid black;
@@ -88,3 +83,28 @@ img:hover{
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+@media screen and (min-width: 300px) and (max-width: 679px) {
+        main {
+        width: 100%;
+        height: 86vh;
+    }
+
+    .container {
+        width: 100%;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    p{
+        font-size: 8px;
+        text-align: center;
+    }
+    
+}
