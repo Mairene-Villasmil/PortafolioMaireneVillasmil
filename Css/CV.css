@@ -4,13 +4,15 @@
 }
 
 body {
-    background-color: rgb(95, 113, 160);
+    background-image: url(../Imagenes/imagen-cinco.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-attachment: fixed;
 }
-
 header {
     width: 100%;
     height: 12vh;
-    background-color: rgb(0, 0, 0);
 }
 
 header a {
@@ -24,8 +26,8 @@ nav ul {
     padding: 5px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 nav li {
@@ -53,11 +55,10 @@ nav li {
 }
 
 .nav li a {
-    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 5px 5px;
-    display: block;
+    display: inline;
 }
 
 .nav li a:hover {
@@ -75,6 +76,8 @@ nav li {
 
 .nav li ul li {
     position: relative;
+    display: inline;
+    font-size: large;
 }
 
 main {
@@ -96,92 +99,92 @@ main {
 img {
     width: 160px;
     height: 280px;
-    border: solid 3px black;
+    border: solid 3px rgb(255, 255, 255);
     margin-left: 120px;
 }
 
 .nombre {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: xx-large;
-    font-weight: bolder;
     text-align: center;
+    color: white;
 }
 
 .informacion {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
-    font-weight: bolder;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .informacion_dos {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
     text-align: justify;
-    font-weight: bolder;
     padding: 5px;
+    color: white;
 }
 
 .contacto {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
     text-align: left;
-    font-weight: bolder;
     margin-bottom: 20px;
+    color: white;
 }
 
 .contacto>p {
-    font-weight: bolder;
     font-size: large;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .educacion {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
     text-align: left;
-    font-weight: bolder;
     margin-bottom: 30px;
+    color: white;
 }
 
 .educacion>p {
-    font-weight: bolder;
     font-size: large;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .habilidades {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
     text-align: left;
-    font-weight: bolder;
     margin-bottom: 30px;
+    color: white;
 }
 
 .habilidades>p {
-    font-weight: bolder;
     font-size: large;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .trabajo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
     text-align: left;
-    font-weight: bolder;
     margin-bottom: 30px;
+    color: white;
 }
 
 .trabajo>p {
-    font-weight: bolder;
     font-size: large;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .download {
@@ -192,15 +195,16 @@ img {
 }
 
 button {
+    background-color: rgba(39, 54, 118, 0.792);
     padding: 5px;
+    border-radius: 5px;
 }
 
 button>a {
     text-decoration-line: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
-    font-weight: bolder;
-    color: black;
+    color: white;
 }
 
 aside>button>a:hover {
@@ -215,7 +219,7 @@ footer {
 h2 a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -223,7 +227,7 @@ h2 a {
     
 }
 
-@media screen and (min-width: 300px) and (max-width: 679px) {
+@media screen and (max-width: 679px) {
     header {
         width: 100%;
         height: 8vh;
