@@ -38,7 +38,6 @@ nav li {
 }
 
 .subrayado:hover {
-    background-color: rgb(112, 112, 112);
     background-size: 15%;
 }
 
@@ -200,6 +199,19 @@ button {
     border-radius: 5px;
 }
 
+button:hover{
+	-webkit-animation: 0.7s click 1;
+}
+
+@-webkit-keyframes click{
+	40%, 75%{
+		-webkit-transform:scale(0.9);
+	}
+	50%{
+		-webkit-transform:scale(1);
+	}
+}
+
 button>a {
     text-decoration-line: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -223,10 +235,6 @@ h2 a {
     text-decoration: none;
 }
 
-@media screen and (min-width: 680px) and (max-width: 1200px) {
-    
-}
-
 @media screen and (max-width: 679px) {
     header {
         width: 100%;
@@ -234,8 +242,12 @@ h2 a {
     }
 
     nav li {
-        font-size: medium;
+        font-size: 12px;
         margin: 5px;
+    }
+    .nav li ul li {
+        font-size: 12px;
+        margin: 7px;
     }
 
     main {
@@ -312,5 +324,97 @@ h2 a {
     footer {
         width: 100%;
         height: 6vh;
+    }
+}
+
+@media screen and (min-width:680px) and (max-width: 1100px){
+        header {
+        width: 100%;
+        height: 10vh;
+    }
+
+    nav li {
+        font-size: 20px;
+        margin: 5px;
+    }
+    .nav li ul li {
+        font-size: 16px;
+        margin: 7px;
+    }
+
+    main {
+        width: 100%;
+        height: 80%;
+    }
+
+    img {
+        width: 120px;
+        height: 210px;
+        border: solid 3px black;
+        margin-left: 20px;
+    }
+
+    .curriculum_vitae {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: (3, 1fr 250px 250px);
+        gap: 20px;
+        place-content: space-evenly center;
+        margin: 20px 0 0 0;
+    }
+
+    .nombre {
+        font-size: 22px;
+    }
+
+    .informacion {
+        font-size: 15px;
+    }
+
+    .informacion_dos {
+        font-size: 11px;
+    }
+
+    .contacto{
+        font-size: 15px;
+        
+    }
+    .contacto>p{
+        font-size: 11px;
+    }
+    .educacion{
+        font-size: 15px;
+    
+    }
+    .educacion>p {
+        font-size: 11px;
+    }
+    .habilidades{
+        font-size: 15px;
+    
+    }
+    .habilidades>p{
+        font-size: 11px;
+    }
+    .trabajo{
+        font-size: 15px;
+   
+    }
+    .trabajo>p{
+        font-size: 11px;
+    }
+    button>a{
+    font-size: 15px;
+    }
+    h2 a {
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    footer {
+        width: 100%;
+        height: 10vh;
     }
 }

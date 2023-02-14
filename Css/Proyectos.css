@@ -16,10 +16,12 @@ img {
     width: 100%;
     height: 392px;
     display: grid;
-    gap: 50px;
+    column-gap: 70px;
+    row-gap: 80px;
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(2, 170px);
     place-content: space-evenly space-evenly;
+    position: relative;
 }
 
 .titulo {
@@ -28,9 +30,20 @@ img {
     height: 190px;
     text-align: center;
     padding: 10px;
-    border-radius: 10px;
+    background-color: rgba(39, 54, 118, 0.479);
+    border: solid 3px rgba(255, 255, 255, 0.283);
+    border-radius: 30px 0px;
     margin: 30px;
 }
+
+.caja1{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+  .caja1:hover{
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+  }
 
 .nav_dos a {
     text-decoration-line: none;
@@ -78,4 +91,39 @@ h3:hover {
     h3 a{
         font-size: 8px;
     }
+}
+
+@media screen and (min-width:680px) and (max-width: 1100px){
+    main {
+        width: 100%;
+        height: 80vh;
+    }
+
+    img {
+        width: 120px;
+        height: 80px;
+    }
+
+    .container_grid {
+        width: 100%;
+        height: auto;
+        display: grid;
+        column-gap: 190px;
+        row-gap: 70px;
+        grid-template-columns: repeat(2, 180px);
+        grid-template-rows: repeat(3, 150px);
+        place-content: center center;
+        margin-top: 20px;
+    }
+
+    .titulo {
+        width: 160px;
+        height: 150px;
+        margin: 20px;
+    }
+
+    h3 a{
+        font-size: 15px;
+    }
+
 }

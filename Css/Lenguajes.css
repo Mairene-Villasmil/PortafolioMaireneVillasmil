@@ -114,13 +114,18 @@ p {
 }
 
 @media screen and (max-width: 679px) {
+    .nav li ul li {
+        font-size: 12px;
+        margin: 3px;
+    }
+
     main {
         width: 100%;
         height: 86vh;
     }
 
     img {
-        width: 80px;
+        width: 90px;
     }
 
     p{
@@ -138,24 +143,69 @@ p {
     .claseUno{
         width: 100px;
         height: 50px;
-        margin: 40px;
+        margin: 50px;
     }
 
     .claseDos{
         width: 100px;
         height: 50px;
-        margin: 40px;
+        margin: 50px;
     }
 
     .claseTres{
         width: 100px;
         height: 50px;
-        margin: 40px;
+        margin: 50px;
     }
 
     .claseCuatro{
         width: 100px;
         height: 50px;
-        margin: 40px;
+        margin: 50px;
     }
+}
+
+@media screen and (min-width:680px) and (max-width: 1100px){
+    .nav li ul li {
+        font-size: 16px;
+        margin: 7px;
+    }
+
+    main {
+        width: 100%;
+        height: 80vh;
+    }
+
+    img {
+        width: 130px;
+    }
+
+    p{
+        font-size: 11px;
+    }
+
+    .claseUno{
+        width: 150px;
+        height: 50px;
+        margin: 70px 60px;
+    }
+
+    .claseDos{
+        width: 150px;
+        height: 50px;
+        margin: 70px 60px;
+    }
+
+    .claseTres{
+        width: 150px;
+        height: 50px;
+        margin: 70px 60px;
+    }
+
+    .claseCuatro{
+        width: 150px;
+        height: 50px;
+        margin: 70px 60px;
+    }
+
 }
