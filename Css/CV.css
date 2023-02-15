@@ -56,7 +56,7 @@ nav li {
 .nav li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 5px 5px;
+    padding: 5px;
     display: inline;
 }
 
@@ -77,6 +77,11 @@ nav li {
     position: relative;
     display: inline;
     font-size: large;
+}
+
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
 }
 
 main {
