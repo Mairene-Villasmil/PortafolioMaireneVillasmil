@@ -55,29 +55,24 @@ main {
     align-items: center;
 }
 
-img {
-    width: 150px;
-    height: 150px;
-}
-
 .grid {
     width: 100%;
     height: 392px;
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(4, 300px);
-    grid-template-rows: repeat(2, 200px);
-    place-content: center center;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 140px);
+    place-items: center;
+}
+
+.texto>p{
+    font-size: 15px;
 }
 
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
     color: white;
-}
-
-p {
-    background-color: rgba(64, 78, 139, 0.479);
     padding: 5px;
 }
 
@@ -96,9 +91,8 @@ p {
         height: 86vh;
     }
 
-    img {
-        width: 90px;
-        height: 80px;
+    .texto>p{
+        font-size: 15px;
     }
 
     .grid {
@@ -129,9 +123,8 @@ p {
         height: 80vh;
     }
 
-    img {
-        width: 120px;
-        height: 80px;
+    .texto>p{
+        font-size: 15px;
     }
 
     .grid {
@@ -141,7 +134,7 @@ p {
         gap: 50px;
         grid-template-columns: repeat(2, 220px);
         grid-template-rows: repeat(3, 150px);
-        place-content: center center;
+        place-content: center;
         margin-top: 20px;
     }
 
