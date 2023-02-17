@@ -140,6 +140,7 @@ footer i {
 @media screen and (max-width: 679px) {
     body{
         background-image: url(../Imagenes/responsive-contacto.png);
+        background-attachment: fixed;
     }
 
     header {
