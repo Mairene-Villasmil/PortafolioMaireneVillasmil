@@ -86,6 +86,11 @@ p {
 
 
 @media screen and (max-width: 679px) {
+    .nav li ul li {
+        font-size: 12px;
+        margin: 3px;
+    }
+    
     main {
         width: 100%;
         height: 86vh;
